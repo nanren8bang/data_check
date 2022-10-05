@@ -154,9 +154,7 @@ def main():
     print("Totall records in table variant_related_resource    is:"+str(records))
 
     ##-------------------
-    print("Totall distinct report_number in table variant3         is:"+str(runSelect(myenv,'select count(distinct report_number) from variant3')[0]['count(distinct report_number)']))
-    print("Totall distinct report_number in table variant3_dataset is:"+str(runSelect(myenv,'select count(report_number) from variant3_dataset')[0]['count(report_number)']))
-
+     
 
     #====================================ALL DONE=================================
     print('\n---End ODP Data Import check---\n')
