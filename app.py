@@ -12,7 +12,7 @@ from datetime import date
 import uuid
 
 def getConnection(myenv):
-        # Get user/password from protected my.cnf file
+         
     configParser = configparser.RawConfigParser()
     configParser.read('%s/.my.cnf' % os.path.expanduser('~'))
     if myenv=='DEV':
